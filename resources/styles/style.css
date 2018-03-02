@@ -467,8 +467,8 @@ a:active {
 
    footer span{
        margin-top: 24px;
-       padding: 16px auto;
-       display: inline;
+       padding: 16px 0;
+       display: block;
        text-align: left;
    }
 }
