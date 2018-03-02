@@ -61,13 +61,12 @@ header{
 #learn{
     background-color: #BEBEBE;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 32px 24px;
 }
 
 .bannerimg{
     width: 60%;
+    height: auto;
 }
 
 .bannerimg img{
@@ -79,6 +78,7 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
     margin: 24px;
 }
 
@@ -218,9 +218,10 @@ header{
 .coursesubject{
     background-color: #ffffff;  
     width: 30%;
-    height: 20rem;
     margin: 16px;
-    display: block;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .subjectimg{
@@ -234,7 +235,8 @@ header{
 }
 
 .courseinfo{
-    padding: 16px 16px 24px 16px;
+    margin: 16px 16px 24px 16px;
+    min-height: 105px;
 }
 
 .courseinfo h2{
